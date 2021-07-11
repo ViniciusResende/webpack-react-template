@@ -1,4 +1,4 @@
-const webpck = require('webpack');
+const webpck = require('webpack')
 
 module.exports = {
   mode: 'production',
@@ -8,4 +8,4 @@ module.exports = {
       'process.env.name': JSON.stringify('Codevolution'),
     }),
   ],
-};
+}
